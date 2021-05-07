@@ -4,6 +4,7 @@
 
     nav ul {padding-left: 2%;}
     nav ul li {flex-basis: auto;}
+    nav ul li a {padding: .5rem 1rem;}
 
     main figure {width: 31%;}
 
