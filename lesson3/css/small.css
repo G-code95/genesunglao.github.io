@@ -3,18 +3,35 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 body {
     font-size: 16px;
+    background-color: #EBEBEB;
 }
+
+h1 h2 {font-family: 'Itim', cursive;}
 
 header{
     padding: .5rem 2%;
-    /* Background Color*/
+    background-color: #105070;
 }
 
-header img {float: left; margin-right: 10px; width: 50px;}
-header h1 { margin: 0; font-size: 1.3rem;}
-header h2 { margin: 0; font-size: 1rem;}
+header img {
+    float: left;
+    margin-right: 10px; 
+    width: 50px;
+}
+header h1 { 
+    margin: 0; 
+    font-size: 1.3rem; 
+    color:#FFCF24;
+}
+header h2 { 
+    margin: 0; 
+    font-size: 1rem; 
+    font-weight: normal; 
+    color:#FFCF24
+}
 
-nav {/*Background Color*/}
+
+nav {background-color: #FFCF24;}
 
 nav ul {
     list-style: none;
@@ -24,23 +41,31 @@ nav ul {
 
 nav ul li a {
     display: block;
-    /*color*/
+    color: #105070;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
 }
 
-/* 
-nav ul li a:hover {}
-nav ul li.active {}
-*/
+
+nav ul li a:hover {
+    background-color: #90C9F5;
+    color: #273B4E;
+}
+
+nav ul li.active a{
+    background-color: #273B4E;
+    color: #EBEBEB;
+}
+
 
 
 main {padding: 0 2%; min-height: 10rem;}
 
 footer {
-    /*background-color: ;*/
+    background-color: #105070;
+    color: #FFCF24;
     padding: .5rem 2%;
     text-align: center;
 }
