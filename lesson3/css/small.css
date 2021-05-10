@@ -6,14 +6,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     background-color: #EBEBEB;
+    /*font-family: 'Itim', cursive;*/
+    /*font-family: 'Architects Daughter', cursive;*/
 }
-
-h1 h2 {
-    font-family: 'Itim', cursive;}
 
 header{
     padding: .5rem 2%;
     background-color: #105070;
+    font-family: 'Architects Daughter', cursive;
 }
 
 header img {
@@ -34,7 +34,7 @@ header h2 {
 }
 
 
-nav {background-color: #FFCF24;}
+nav {background-color: #FFCF24; font-family: 'Itim', cursive;}
 
 nav ul {
     list-style: none;
@@ -64,7 +64,18 @@ nav ul li.active a{
 
 
 
-main {padding: 0 2%; min-height: 10rem;}
+main {padding: 0 2%; min-height: 10rem; font-family: 'Itim', cursive;}
+
+main h1 {font-family: 'Architects Daughter', cursive;}
+
+main h2.architects_daughter {font-family: 'Architects Daughter', cursive;}
+
+main h2.itim {font-family: 'Itim', cursive;}
+
+main img { 
+    width: 1000px;
+    align-items: center;
+}
 
 footer {
     background-color: #105070;
