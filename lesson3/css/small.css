@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&display=swap');
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -7,7 +8,8 @@ body {
     background-color: #EBEBEB;
 }
 
-h1 h2 {font-family: 'Itim', cursive;}
+h1 h2 {
+    font-family: 'Itim', cursive;}
 
 header{
     padding: .5rem 2%;
