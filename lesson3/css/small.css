@@ -88,6 +88,6 @@ footer {
 /*----- class= Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
-    display: table;
+    display: flex;
     clear: both;
   }
