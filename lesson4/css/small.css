@@ -103,6 +103,7 @@ main p {
 
 div#footerWrapper {background-color: #105070;}
 footer {
+    font-family: 'Itim', cursive;
     color: #FFCF24;
     padding: .5rem 2%;
     text-align: center;
