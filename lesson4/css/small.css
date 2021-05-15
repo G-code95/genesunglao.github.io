@@ -13,25 +13,28 @@ header{
     font-family: 'Architects Daughter', cursive;
     display: flex;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
+/*
 .headings {
     display: flex;
     flex-direction: column;
 }
-
+*/
 header img {
+    justify-content: flex-start;
     margin-right: 10px; 
-    width: 50px;
-    height: auto;
+    width: 3rem;
 }
 header h1 { 
     margin: 0; 
+    font-size: 1.3rem;
     color:#FFCF24;
 }
 header h2 { 
     margin: 0; 
+    font-size: 1rem;
     font-weight: normal; 
     color:#FFCF24
 }
@@ -46,6 +49,10 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: #105070;
+}
+nav button:hover {
+    background-color: #90C9F5;
+    color: #273B4E;
 }
 
 nav ul {
@@ -82,12 +89,13 @@ main {
 
 main h1 {
     font-family: 'Architects Daughter', cursive;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 main p {
     border: 1px solid;
     padding: 5rem 2%;
+    text-align: center;
     margin: 1rem;
     margin-left: 0;
 }
