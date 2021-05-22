@@ -90,6 +90,7 @@ main {
 main h1 {
     font-family: 'Architects Daughter', cursive;
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 main p {
@@ -97,7 +98,6 @@ main p {
     padding: 5rem 2%;
     text-align: center;
     margin: 1rem;
-    margin-left: 0;
 }
 
 
@@ -106,9 +106,7 @@ footer {
     font-family: 'Itim', cursive;
     color: #FFCF24;
     padding: .5rem 2%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 /*----- class= Clearfix: Force an Element not to collapse -----*/
