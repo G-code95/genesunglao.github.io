@@ -106,7 +106,9 @@ footer {
     font-family: 'Itim', cursive;
     color: #FFCF24;
     padding: .5rem 2%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*----- class= Clearfix: Force an Element not to collapse -----*/
