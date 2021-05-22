@@ -20,6 +20,8 @@
 
     nav ul li.gallery a {border: none;}
 
+    main h1 {text-align: start; margin-left: 1%;}
+
     /*FORECAST*/
     section.forecast {
         display: grid;
