@@ -105,6 +105,11 @@ main h1 {
     text-align: center;
 }
 
+picture.photo {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
 
 .weatherSummary {
     position: relative;

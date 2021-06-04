@@ -72,6 +72,14 @@ main figure.myphoto {
 main figure.myphoto img {width: 100%;}
 main figure.myphoto figcaption {text-align: center; font-size: .75rem;}
 
+picture.photoA {
+    display: block;
+    width: 96%;
+    margin: 0 2%; 
+}
+
+main picture.photoA img {width: 100%;}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;

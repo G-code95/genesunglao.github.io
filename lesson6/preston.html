@@ -44,14 +44,28 @@
             </nav>
         </div>
 
-        <main>
+        <main class="clearfix">
             
 
             <h1>Preston Idaho</h1>
 
             <!--Weather Summary-->
             <div class="weatherSummary">
-                <img src="images/pexels-kevin-bidwell-idaho.jpg" alt="preston">
+                <picture class="photo">
+                    <source media="(max-width: 200px)" srcset="images/wdd230_image_franklinOriginal_200.jpg">
+                    <source media="(max-width: 500px)" srcset="images/wdd230_image_franklinOriginal_500.jpg">
+                    <source media="(max-width: 800px)" srcset="images/wdd230_image_franklinOriginal_800.jpg">
+                    <img src="images/wdd230_image_franklinOriginal_1100.jpg" alt="preston">
+                </picture>
+                
+                <!--
+                <img src="images/wdd230_image_franklinOriginal.jpg" alt="preston" sizes="100vw"
+                    srcset="images/wdd230_image_franklinOriginal_200.jpg 200w,
+                            images/wdd230_image_franklinOriginal_500.jpg 500w,
+                            images/wdd230_image_franklinOriginal_800.jpg 800w,
+                            images/wdd230_image_franklinOriginal_1100.jpg 1100w,">
+                -->
+                
                 <section class="weatherSummary-info">
                     <h2>Weather Summary</h2>
                     <p><strong>Currently: </strong><span>Cloudy</span></p>
