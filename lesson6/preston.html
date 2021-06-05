@@ -65,14 +65,14 @@
                             images/wdd230_image_franklinOriginal_800.jpg 800w,
                             images/wdd230_image_franklinOriginal_1100.jpg 1100w,">
                 -->
-                
+         <!--WEATHER INFO BOX-->
                 <section class="weatherSummary-info">
                     <h2>Weather Summary</h2>
-                    <p><strong>Currently: </strong><span>Cloudy</span></p>
-                    <p><strong>High: </strong><span>60&deg;</span></p>
-                    <p></p>
-                    <p><strong>Humidity: </strong><span>95%</span></p>
-                    <p><strong>Wind Speed: </strong><span>4mph</span></p>
+                    <p>Currently: <span>Cloudy</span></p>
+                    <p>High: <span id="temp">34</span>&deg;</p>
+                    <p id="chill">message</p>
+                    <p>Humidity: <span>95%</span></p>
+                    <p>Wind Speed: <span id="speed">60</span>mph</p>
                 </section>
             </div>
             
@@ -157,6 +157,7 @@
             </footer>
         </div>
         <script src="js/scripts.js"></script>
+        <script src="js/windchill.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/webfontload.js"></script>
     </body>

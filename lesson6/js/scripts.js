@@ -14,7 +14,7 @@ const today = new Date();
 console.log(today);
 
 const dayNumber = today.getDay();
-console.log(dayNumber);
+//console.log(dayNumber);
 
 const element = document.getElementById("banner")
 
