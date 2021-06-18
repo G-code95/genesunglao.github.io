@@ -40,12 +40,13 @@
     
     /*MAIN*/
 
-    .gallery {
+    div.gallery {
         display: grid;
         grid-gap: 0.5rem;
         grid-template-columns: 1fr, 1fr;
+        max-width: 34rem;
     }
-
+    
     .pic1{
         grid-column: 1;
         grid-row: 1;
