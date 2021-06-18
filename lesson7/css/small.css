@@ -99,7 +99,7 @@ nav ul.hide {display:none;}
 .gallery picture, h1, figcaption{
     display: grid;
     margin: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     justify-content: center;
 }
 
@@ -111,6 +111,10 @@ nav ul.hide {display:none;}
     filter: blur(0em);
     transition: filter 0.5s;
   }
+
+  img {
+    width: 100%;
+}
 
 
 

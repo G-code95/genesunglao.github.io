@@ -6,19 +6,15 @@
     }
 
     div.gallery {
-        display: grid;
-        grid-gap: 0.5rem;
         grid-template-columns: 1fr, 1fr, 1fr;
-        margin: 0 auto;
-        max-width: 70rem;
     }
 
     .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9 {
-        box-shadow: 5px 5px 5px #999;
+        box-shadow: 5px 5px 5px rgb(190, 190, 190);
     }
 
     div.gallery picture:hover {
-        box-shadow: 10px 10px 10px 10px black;
+        box-shadow: 10px 10px 10px 10px #999;
     }
 
     .pic1{
