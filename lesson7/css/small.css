@@ -96,7 +96,21 @@ nav ul.hide {display:none;}
 
 
 /*MAIN*/
+.gallery picture, h1{
+    display: grid;
+    margin: auto;
+    margin-bottom: 0.5em;
+    justify-content: center;
+}
 
+.gallery img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
 
 
 
