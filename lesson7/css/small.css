@@ -96,10 +96,10 @@ nav ul.hide {display:none;}
 
 
 /*MAIN*/
-.gallery picture, h1{
+.gallery picture, h1, figcaption{
     display: grid;
     margin: auto;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     justify-content: center;
 }
 
