@@ -1,0 +1,40 @@
+header h1 {
+    font-family: 'Bree Serif', serif;
+    color: rgb(50, 25, 175);
+    text-align: center;
+}
+
+main {
+    display: grid;
+    border-style: solid;
+    border-color: blue;
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+div.cards section {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    background-color: lightblue;
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+}
+
+div.cards h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: rgb(50, 25, 175);
+    text-align: center;
+}
+
+div.cards p {
+    font-size: .8rem;
+    text-align: center;
+}
+
+div.cards image {
+    justify-content: center;
+    
+}
