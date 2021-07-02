@@ -5,7 +5,7 @@ header h1 {
 }
 
 main {
-    display: grid;
+    display: flex;
     border-style: solid;
     border-color: blue;
     background-color: lightgray;
@@ -20,6 +20,7 @@ div.cards section {
     width: 400px;
     height: auto;
     margin: 1rem;
+    align-items: center;
 }
 
 div.cards h2 {
@@ -34,7 +35,8 @@ div.cards p {
     text-align: center;
 }
 
-div.cards image {
-    justify-content: center;
+div.cards img {
+    margin: 0;
+    padding: .5rem;
     
 }
