@@ -52,12 +52,13 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Your Information</legend>
-                    <label class="top">*Full Name: <input type="text" name="name" pattern="[A-Za-z]{5,}" minlength="5" required></label>
+                    <label class="top">*First Name: <input type="text" name="firstName" pattern="[A-Za-z]{2,}" minlength="2" required></label>
+                    <label class="top">*Last Name: <input type="text" name="lastName" pattern="[A-Za-z]{2,}" minlength="2" required></label>
                     <label class="top">*Email: <input type="email" name="email" placeholder="youremail@xmail.com"></label>
                     <label class="top">*Phone: <input type="tel" name="phone" required></label>
                     <label class="top">*Zip Code: <input type="number" name="zip" required></label>
                 </fieldset>
-
+                
                 <fieldset>
                     <legend>Storm Information</legend>
                     <label class="top">Storm Date: <input type="date" name="date"></label>
@@ -78,7 +79,7 @@
                             <option value="fishhaven">Fish Haven</option>
                         </select>
                     </label>
-                    <div class="top">User In-Danger level</div>
+                    <div class="top">Are you in danger?</div>
                     <label class="sbs"> Yes <input type="radio" name="level" value="yes"></label>
                     <label class="sbs"> No <input type="radio" name="level" value="no"></label>
                     <label class="sbs"> Maybe <input type="radio" name="level" value="maybe"></label>
