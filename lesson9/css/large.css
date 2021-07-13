@@ -5,13 +5,5 @@
         margin: 0 auto;
     }
 
-    .pic1, .pic2, .pic3 {
-        box-shadow: 5px 5px 5px rgb(190, 190, 190);
-    }
-
-    div.gallery picture:hover {
-        box-shadow: 10px 10px 10px 10px #999;
-    }
-
 
 }

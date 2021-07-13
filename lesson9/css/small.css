@@ -6,6 +6,7 @@ body {
     background-color: #EBEBEB;
 }
 
+
 /*Banner Message*/
 div#banner {
     background-color: #FFCF24;
@@ -18,7 +19,6 @@ div#banner {
 div.showme {display: block;}
 div.hideme {display: none;}
 
-
 div#headerWrapper {background-color: #105070;}
 header{
     padding: .5rem 2%;
@@ -27,13 +27,6 @@ header{
     align-content: center;
     justify-content: center;
 }
-
-/*
-.headings {
-    display: flex;
-    flex-direction: column;
-}
-*/
 header img {
     justify-content: flex-start;
     margin-right: 10px; 
@@ -51,10 +44,10 @@ header h2 {
     color:#FFCF24
 }
 
+
 /*NAVIGATION*/
 div#navWrapper {background-color: #FFCF24;}
 nav {font-family: 'Itim', cursive;}
-
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -66,13 +59,11 @@ nav button:hover {
     background-color: #90C9F5;
     color: #273B4E;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 nav ul li a {
     display: block;
     color: #105070;
@@ -80,48 +71,97 @@ nav ul li a {
     text-decoration: none;
     text-align: center;
 }
-
 nav ul li a:hover {
     background-color: #90C9F5;
     color: #273B4E;
 }
-
 nav ul li.active a{
     background-color: #273B4E;
     color: #EBEBEB;
 }
-
 nav ul.hide {display:none;}
 
 
-
 /*MAIN*/
-.gallery picture, h1, figcaption{
-    display: grid;
-    margin: auto;
-    margin-bottom: 1rem;
-    justify-content: center;
+main {
+    padding: 0 2%; 
+    min-height: 10rem; 
+    font-family: 'Itim', cursive;
 }
-
-.gallery img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-.gallery img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-
-  img {
+main h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 2rem;
+    text-align: center;
+}
+picture.photo {
+    display: block;
     width: 100%;
+    margin: 0;
+}
+
+.weatherSummary img {width: 100%; height: auto;}
+
+
+/*TOWN CARDS - Lesson 9*/
+.towns div {
+    margin-bottom: 2rem;
+    padding: .5rem;
+    border: 1px solid #FFCF24;
+    background-color: #273B4E;
+}
+.towns section {
+    text-align: center;
+}
+.towns section h2, .towns section h6 {
+    color:#FFCF24;
+    margin: 1px;
+    padding-top: .5rem;
+} 
+.towns section h2 {
+    padding-top: 1.5rem;
+}
+.towns section p {
+    color:#FFCF24;
+}
+.towns figure img {
+    width: 100%;
+    height: auto;
 }
 
 
+/*CONTACT US*/
+section.contact-info {
+    background-color: #FFCF24;
+    border: 1px solid #273B4E;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+/*Contact Info GRID*/
+div.contact-grid {
+    display: grid;
+}
+div.address {
+    margin: 0;
+    grid-column: 1/2;
+}
+div.phone, div.email {
+    margin: 0;
+    grid-column: 2/3;
+}
+div.mapouter {    
+   grid-column: 1/3;
+    grid-row: 3;
+}
+.mapouter iframe {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.contact-grid div h3 {margin: 0;}
+.contact-grid div p {margin-top: 0;}
 
 
-
-
-
+/*FOOTER*/
 div#footerWrapper {background-color: #105070;}
 footer {
     font-family: 'Itim', cursive;
