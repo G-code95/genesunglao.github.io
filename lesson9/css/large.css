@@ -5,5 +5,14 @@
         margin: 0 auto;
     }
 
-
-}
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: -.5rem;
+    }
+    .towns div {
+        display: block;
+        margin: .5rem;
+        margin-bottom: 2.5rem;
+    }
+}   
