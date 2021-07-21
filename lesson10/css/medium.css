@@ -22,8 +22,7 @@
 
     main h1 {text-align: start; margin-left: 1%;}
 
-    .weatherSummary {position: relative;}
-    .weatherSummary-info {position: absolute; text-align: justify;}
+    .weatherSummary-info {font-size: 1rem;}
 
     /*WEATHERFORECAST*/
     section.weatherforecast {
