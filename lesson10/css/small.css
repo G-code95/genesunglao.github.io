@@ -132,7 +132,7 @@ section.weatherforecast {
 section.weatherforecast div {
     text-align: center;
     border: 1px solid #273B4E;
-    margin-top: 1rem;
+    margin: .5rem;
 }
 section.weatherforecast div h3 {
     background-color: #FFCF24;
