@@ -33,7 +33,7 @@
     }
     
     
-    /*MAIN*/
+    /*TOWN CARDS - index */
     .towns div {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -47,7 +47,6 @@
     }
 
 
-    /*FOOTER*/
     div.mapouter {
         grid-column: 3/4;
         grid-row: 1/3;

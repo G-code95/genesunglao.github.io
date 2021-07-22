@@ -14,7 +14,6 @@ div#banner {
     padding: 1rem;
     text-align: center;
     font-family: 'Itim', cursive;
-
 }
 div.showme {display: block;}
 div.hideme {display: none;}
@@ -102,7 +101,7 @@ picture.photo {
 .weatherSummary img {width: 100%; height: auto;}
 
 
-/*TOWN CARDS - Lesson 9*/
+/*TOWN CARDS*/
 .towns div {
     margin-bottom: 2rem;
     padding: .5rem;

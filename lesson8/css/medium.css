@@ -38,8 +38,7 @@
     }
     
     
-    /*MAIN FORM*/
-
+    /*FORM*/
     form label.top input, form label.top select, label.top textarea{
         max-width: 27rem;
     }
