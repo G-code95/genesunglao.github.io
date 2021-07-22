@@ -52,7 +52,7 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Your Information</legend>
-                    <label class="top">*Full Name: <input type="text" name="name" pattern="[A-Za-z]{2,} [A-Za-z]{2,}" minlength="2" required></label>
+                    <label class="top">*Full Name: <input type="text" name="name" pattern="[A-Za-z ]{3,}" minlength="3" required></label>
                     <label class="top">*Email: <input type="email" name="email" placeholder="youremail@xmail.com"></label>
                     <label class="top">*Phone: <input type="tel" name="phone" required></label>
                     <label class="top">*Zip Code: <input type="number" name="zip" required></label>
@@ -99,6 +99,5 @@
         <script src="js/scripts.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/webfontload.js"></script>
-        <script type="text/javascript" src="js/lazyload.js"></script>
     </body>
 </html>
