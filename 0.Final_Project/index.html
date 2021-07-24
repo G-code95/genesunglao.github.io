@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Gene Sunglao">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Home Page">
+
+        <title>Home Page | SanJ Chamber of Commerce</title>
+        <link rel="shortcut icon" href="faviconSJ.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&family=Play:wght@700&family=Ubuntu:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normlize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <div id="headerWrapper">
+            <header class="clearfix">
+                <img src="images/SJ_CoC_logo.png" alt="SJ Commerce Logo">
+                <div class="headings">
+                    <h1>SJ Chamber of Commerce</h1>
+                    <h2>Tara na at mag business sa San Juan!</h2>
+                </div>
+            </header>
+        </div>
+
+        <!--NAVIGATION-->
+        <div id="navWrapper">
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li class="active"><a href="index.html"><em>Home</em></a></li>
+                    <li><a href="sj-city.html">San Juan City</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="form-joinus.html">Join Us</a></li>
+                    <li><a href="info-contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <main class="clearfix">
+            
+            <h1>San Juan Chamber of Commerce</h1>
+
+            <picture class="photo">
+                <source media="(max-width: 200px)" srcset="images/SJ_panshot_200.jpg">
+                <source media="(max-width: 500px)" srcset="images/SJ_panshot_500.jpg">
+                <source media="(max-width: 800px)" srcset="images/SJ_panshot_800.jpg">
+                <img src="images/SJ_panshot_1100.jpg" alt="San Juan City">
+            </picture>
+
+            <!--Welcome Message-->
+            <article class="welcome">
+                <h3>Welcome,</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                <div class="welcome-div">
+                    <img src="#" alt="people doing business">
+                    <button class="join-button" onlick="document.location='form-joinus.html'">Join our Chamber</button>
+                </div>
+            </article>
+
+            <!--Local Business Cards-->
+            <h2>Local Businesses</h2>
+            <section class="company-ads">
+                <div>
+                    <h3>Greenhills Shopping Center</h3>
+                    <img src="#" alt="#">
+                    <p>____________________________</p>
+                    
+                </div>
+                <div>
+                    <h3>Greenhills Shopping Center</h3>
+                    <img src="#" alt="#">
+                    <p>____________________________</p>
+                </div>
+                <div>
+                    <h3>Greenhills Shopping Center</h3>
+                    <img src="#" alt="#">
+                    <p>____________________________</p>
+                </div>
+            </section>
+
+            <!--Events / Weather Div-->
+            <div class="events-weather">
+                <section class="events"></section>
+
+                <section class="weather"></section>
+            </div>
+
+
+            <!--Contact Info-->
+            <section class="contact-info">
+                <h2>Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="address">
+                        <h3>Address: </h3>
+                        <p>San Juan Chamber of Commerce<br>
+                            123 Pinaglabanan St.,<br>
+                            San Juan City 1500</p>
+                    </div>
+                    <div class="phone">
+                        <h3>Phone: </h3>
+                        <p>(+63) 919 309 3897</p>
+                    </div>
+                    <div class="email">
+                        <h3>Email: </h3>
+                        <p>business@yoururl.com</p>
+                    </div>
+                    <div class="social">
+                        <h3>Social Media: </h3>
+                        <a href="https://www.facebook.com/">
+                              <img class="fb" src="images/icon_FB.png" alt="Facebook Icon"></a>   
+                        <a href="https://www.youtube.com/">
+                              <img  class="yt" src="images/icon_YT.png" alt="Youtube Icon" ></a>
+                    </div>
+                    <div class="mapouter">        
+                        <iframe src="https://maps.google.com/maps?q=san%20juan%20city%20philppines&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!--Footer-->
+        <div id="footerWrapper">
+            <footer>
+                &copy; Gene Sunglao | WDD 230 | Weather Site Project   
+                <div class="date"></div>
+            </footer>
+        </div>
+
+        <script src="js/buttons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/webfontload.js"></script>
+    </body>    
+</html>
