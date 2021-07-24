@@ -1,7 +1,7 @@
 @media only screen and (min-width: 35rem) {
 
     header {justify-content: flex-start;}
-    header img {width: 4.5rem;}
+    header img {width: 6.5rem;}
     header h1 {font-size: 2rem;}
     header h2 {font-size: 1.5rem;}
     nav button {display: none;}
@@ -47,17 +47,13 @@
     
     /*Contact INFO Grid*/
     div.mapouter {
-        grid-column: 3/4;
-        grid-row: 1/3;
+        
     }
     
 
     /*FORM*/
     form label.top input, form label.top select, label.top textarea{
         max-width: 27rem;
-    }
-    form fieldset {
-        padding: 1rem 2% 2rem 3rem;
     }
 
 
