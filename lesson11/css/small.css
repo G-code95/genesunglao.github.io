@@ -85,7 +85,8 @@ nav ul.hide {display:none;}
 main {
     padding: 0 2%; 
     min-height: 10rem; 
-    font-family: 'Itim', cursive;}
+    font-family: 'Itim', cursive;
+}
 main h1 {
     font-family: 'Architects Daughter', cursive;
     margin-top: 2rem;
